@@ -1,3 +1,4 @@
+-- Deploy transportColis:serial_number_TEXT to pg
 
 BEGIN;
 ALTER TABLE package

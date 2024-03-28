@@ -1,3 +1,4 @@
+-- Revert transportColis:volume from pg
 BEGIN;
 
 ALTER TABLE package
@@ -15,3 +16,5 @@ ALTER TABLE package
 ALTER COLUMN depth DROP DEFAULT;
 
 COMMIT;
+
+

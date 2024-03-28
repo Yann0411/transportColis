@@ -1,6 +1,6 @@
+-- Deploy transportColis:version_1 to pg
+
 BEGIN;
--- faire place nette avant de créer les tables
-DROP TABLE IF EXISTS place, package;
 
 CREATE TABLE place (
     id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
