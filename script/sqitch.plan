@@ -1,8 +1,5 @@
 %syntax-version=1.0.0
-%project=transportColis
+%project=ocolis
 
-version_1 2024-03-26T11:21:52Z System Administrator <root@MacBook-Pro-de-yann.local> # structure de base
-serial_number_TEXT 2024-03-27T09:20:30Z System Administrator <root@MacBook-Pro-de-yann.local> # change serial number to TEXT
-serial_number_UNIQUE 2024-03-27T09:20:30Z System Administrator <root@MacBook-Pro-de-yann.local> # change serial number to UNIQUE
-volume 2024-03-27T09:20:30Z System Administrator <root@MacBook-Pro-de-yann.local> # change volume to height width , depth
-tracking 2024-03-27T09:20:30Z System Administrator <root@MacBook-Pro-de-yann.local> # adding tracking informations
+1.init 2024-03-29T13:00:12Z System Administrator <root@MacBook-Pro-de-yann.local> # basic structure
+2.expedition 2024-03-29T13:00:13Z System Administrator <root@MacBook-Pro-de-yann.local> # ajout expedition

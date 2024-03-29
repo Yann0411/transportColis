@@ -1,13 +1,10 @@
-export PGDATABASE=ocolis
+PGDATABASE=ocolis
 
 
 sqitch init ocolis --engine pg
 
-sqitch add version_1 -n "basic stucture"
-sqitch add serial_number_TEXT -n "change serial number to TEXT"
-sqitch add serial_number_UNIQUE -n "change serial number to UNIQUE"
-sqitch add volume -n "change volume to height width , depth"
-sqitch add tracking -n "adding tracking informations"
+sqitch add 1.init -n "basic structure"
+sqitch add 2.expedition -n "ajout expedition"
 
 sqitch revert db:pg:ocolis
 sqitch deploy db:pg:ocolis
