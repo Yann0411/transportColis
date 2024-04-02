@@ -41,7 +41,7 @@ INSERT INTO package (serial_number,content_description, weight,height,width,dept
 
 
 INSERT INTO package (serial_number,content_description, weight,height,width,depth,worth,sender_id,recipient_id,expedition_time)VALUES
-(2,'air',0.0,100,1,1,1000000,1,2,'2022-03-31');
+(2,'air',0.0,100,1,1,1000000,2,1,'2022-03-31');
 
 
 
