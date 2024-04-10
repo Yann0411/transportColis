@@ -1,5 +1,4 @@
 -- Deploy ocolis:2.init to pg
-
 BEGIN;
 
 CREATE TABLE expedition (

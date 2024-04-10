@@ -1,6 +1,7 @@
-ADRESSE: référence interne, nom, ligne principale, complément, code postal, ville
-envoie, 0N ADRESSE, 11 COLIS
-COLIS: numéro interne, contenu, poids, volume, valeur estimée
+ADRESSE: référence_interne, nom, ligne_principale, complément, code_postal, ville
+COLIS: numéro_interne, contenu, poids, height, width, depth, valeur_estimée, idtt_expédition
+EXPEDITION: idtt, driver_name, vehicle_plate, starting_time, ending_time
 
-:
-reçoit, 0N ADRESSE, 11 COLIS
+ENVOYEUR, 1N ADRESSE, 11 COLIS
+DESTINATAIRE, 1N ADRESSE, 11 COLIS
+CONTIENT, 0N EXPEDITION, 11 COLIS
